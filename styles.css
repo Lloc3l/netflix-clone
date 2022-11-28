@@ -1,15 +1,14 @@
 *{
     padding: 0;
+    color: white;
     margin: 0;
     box-sizing: border-box;
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
 }
-
 header{
     padding: 26px 56px;
     display: flex;
     justify-content: space-between;
-   
 }
 button.btn-nav{
     background-color: #f40612;
@@ -17,117 +16,95 @@ button.btn-nav{
     padding: 7px 17px;
     border: none;
     font-weight: 400;
-    width: 120px;
-    height: 50px;
+    width: 90px;
+    height: 38px;
 }
 button.btn-nav a{
-    color: white;
     font-size: 16px;
     text-decoration: none;
 }
-div.icon svg{
-     height: 30px;
-     fill: #222;
-     position: absolute;
-     margin-top: 10px;
-     margin-left: 3px;
-}
 select{
-    margin-right: 20px;
-    padding-left: 30px;
+    margin-right: 30px;
+    padding-left: 15px;
     font-size: 16px;
     background: rgba(0,0,0,.4);
     border: 1px solid #aaa;
-    color: #fff;
-    width: 120px;
-    height: 50px;
+    width: 100px;
+    height: 38px;
 }
 div.body-bg{
     background-image: url(./styles/bodypic.jpg);
     background-size: cover;
 }
 div.main-body{
-    margin-left: 700px;
-    margin-right: 700px;
-    padding: 200px;
+    margin: 0px 450px 0px 450px;
+    padding: 130px;
     text-align: center;
 }
-div.container-first{
-    color: white;
-}
 div.container-first h1{
-    font-size: 80px;
+    font-size: 60px;
     line-height: 1.1;
-    
 }  
 div.container-first h2{
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 2;
+    line-height: 2.5;
 }  
 div.container-first h3{
-    font-size: 30px;
-    font-weight: 400;
+    font-weight: 400; 
     line-height: 3;
 }
 div.form{
     display: flex;
+    justify-content: center;
 }
 div.form input{
-   
     width: 1000px;
     padding: 10px 10px 10px;
-    font-size: 19px;
+    font-size: 16px;
 }
 button.btn-link{
-    width: 500px;
-    height: 100px;
+    width: 450px;
+    height: 70px;
     background-color: #f40612;
     border: none;
-    font-size: 35px;
+    font-size: 26px;
 }
 button.btn-link a{
-    color: white;
     font-weight: 400;
     text-decoration: none;
     border: none;
 }
+.section{
+    background-color: black;
+}
 div.second-body{
-    padding: 70px 45px;
+    padding: 30px 30px;
     border-top: 8px solid #222;
     border-bottom: 8px solid #222;
-    background-color: black;
 }
 div.second-body-story-text{
     align-items: center;
     display: flex;
     justify-content: space-between;
-    margin: auto;
-    max-width: 1500px;
-    color: white;
-    width: 52%;
-   
+    margin: 0 auto;
+    max-width: 1100px;
 }
 div.second-body-text{
-    padding: 50px;
+    padding: 20px;
+    line-height: 1.1;
+    width: 52%;
+}
+h1{
+    font-size: 50px;
     line-height: 1.5;
 }
-div.second-body-text h1{
-    font-size: 50px;
-    line-height: 2;
-}
-div.second-body-text h2{
-    font-size: 26px;
+h2{
     font-weight: 400;
-   
+    line-height: 1.1;
 }
-div.third-body{
-    padding: 75px 45px;
-    border-bottom: 8px solid #222;
-    background-color: black;
-    color: white; 
+div.body-story{
+    padding: 50px 30px;
 }
-div.third-body-story-text{
+div.body-story-text{
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -135,79 +112,13 @@ div.third-body-story-text{
     max-width: 1200px;
 }
 div.third-body-text{
-    padding: 30px;
+    padding: 20px;
     width: 52%;
-    
-}
-div.third-body-text h1{
-    font-size: 50px;
-    line-height: 1.5;
-}
-div.third-body-text h2{
-    font-size: 26px;
-    font-weight: 400;
-}
-div.forth-body{
-    background-color: black;
-    border-bottom: 8px solid #222;  
-}
-div.forth-body-text{
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    max-width: 1200px;
-    color: white;
-}
-div.forth-body-story-text{
-    flex: 0 1 auto;
-    height: 100%;
-    padding: 0 3rem 0 0;
-    width: 52%;
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
-div.forth-body-text h1{
-    font-size: 50px;
-    line-height: 2;
-    
-}
-div.forth-body-text h2{
-    font-size: 26px;
-    font-weight: 400;
-}
-div.fifth-body{
-    padding: 70px 45px;
-    border-bottom: 8px solid #222;
-    background-color: black;
-    color: white;
-}
-div.fifth-body-story-text{
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    max-width: 1100px;
-}
-div.fifth-body-text{
-    padding: 30px;
-    width: 52%;
-}
-div.fifth-body-text h1{
-    font-size: 50px;
-    width: 600px;
-    line-height: 2;
-}
-div.fifth-body-text h2{
-    line-height: 1.1;
-    font-size: 26px;
-    font-weight: 400;
 }
 div.six-body{
     padding: 50px 30px;
+    border-top: 8px solid #222;
     border-bottom: 8px solid #222;
-    background-color: black;
-    color: white;
 }
 div.six-body-story{
     display: flex;
@@ -216,103 +127,74 @@ div.six-body-story{
 ul li{
     list-style: none;
 }
-li button.btn-faq{
+ul li button.btn-faq{
     background: #303030;
-    width: 1200px;
+    width: 800px;
     padding: 21px 50px 21px 31px;
     margin-bottom: 8px;
     text-align: left;
-    color: white;
-    font-size: 50px;
+    font-size: 26px;
     font-weight: 400;
 }
 div.FAQ{
     text-align: center;
 }
-div.FAQ h1{
-    font-size: 60px;
-}
 div.btn-li-faq{
-    margin-top: 50px;
+    margin-top: 40px;
 }
 div.form-two{
-    text-align: center;    
+    text-align: center; 
+    padding-bottom: 30px;
 }
-div.form-two-input{
-    display: flex;
-    justify-content: center;
+div.form-two .form input{
+    width: 500px;
+    padding: 10px 10px 10px;
+    font-size: 16px;
 }
-div.form-two h1{
+div.form-two button.btn-link{
+    width: 250px;
+    padding: 10px 10px 10px;
     font-size: 26px;
+}
+div.form-two h3{
     font-weight: 400;
-    margin-top: 60px;
-    margin-bottom: 30px;
-}
-div.form-two-input input{
-    width: 800px;
-    height: 100px;
-    font-size: 24px;
-    padding: 20px;
-}
-button.form-two-btn{
-    background-color: #f40612;
-    width: 300px;
-    height: 100px;
-}
-button.form-two-btn a{
-    color: white;
-    text-decoration: none;
-    font-size: 40px;
+    margin: 60px 0px 20px 0px;
 }
 div.footer-column{
     display: flex;
     justify-content: space-between;
-    width: 70%;
-    max-width: 1200px;
+    width: 40%;
+    max-width: 1300px;
     margin: auto;
-    margin-left: 700px;
+    margin-left: 500px;
     line-height:2.5 ;
-    
 }
 p.footer-top-text{
     padding-top: 75px;
-    display: flex;
     width: 80%;
     max-width: 1300px;
-    margin-left: 700px;
-    margin-bottom: 40px;
+    margin: 0px 0px 40px 500px;
     color: #737373;
-    font-size: 20px;
+    font-size: 16px;
 }
-ul li a{
-    text-decoration: none;
-    color:#737373;
-    font-size: 20px;
-}
-footer{
-    background-color: black;
+ul p{
+    color: #737373;
+    font-size: 13px;
     padding-bottom: 20px;
 }
-select.option{
-    margin-top: 40px;
-    width: 150px;
-    height: 80px;
-    font-size: 20px;
-    color:#737373;
-}
-footer p.footer-bottom-text{
-    padding-top: 30px;
-    display: flex;
-    width: 80%;
-    max-width: 1300px;
-    margin-left: 700px;
+footer ul li a {
+    padding-bottom: 20px;
     color: #737373;
-    font-size: 20px;
+    text-decoration: none;
+    font-size: 13px;
 }
-div.icon2 svg{
-    height: 30px;
-    fill: gray;
-    position: absolute;
-    margin-top: 65px;
-    margin-left: 3px;
+select.option{
+    margin: 30px 0px 20px 0px;
+    width: 120px;
+    height: 50px;
+    font-size: 16px;
+    color: #737373;
+    border: 1px solid #222;
 }
+
+
